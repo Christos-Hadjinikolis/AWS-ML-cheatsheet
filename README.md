@@ -122,14 +122,14 @@
   * Also useful for comparing algorithms!
 
 ## Model Performance
-* Confusion Matrix: Used for model performance evaluation
-   * Recall/Sensitivity: $\frac{TP}{TP+FN}$
-   * Specificity: $\frac{TN}{TN+FP}$
-   * Precision: $\frac{TP}{TP+FP}$
-   * Accuracy: $\frac{TP + TN}{ALL}$
-   * F1 = $\frac{2*Recall*Precision}{Recall + Precision}$
-   * ROC: Receiver Operator Curve
-   * AUC: Area Under the Curve
+* Confusion Matrix: Used for model performance evaluation (to compare the performance across many algorithms)
+   * `Recall/Sensitivity (True Positives Rate)`: $\frac{TP}{TP+FN}$ --> The higher it is the fewer FN we have! (Use-case: Catching Fraud, FN are unacceptable!)
+   * `Specificity (True Negatives Rate)`: $\frac{TN}{TN+FP}$ --> The higher it is the fewer FP we have! (Use-case: Content Moderation, FP are unacceptable!)
+   * `Precision`: $\frac{TP}{TP+FP}$ --> True positives proportion that where correctly classified.
+   * `Accuracy`: $\frac{TP + TN}{ALL}$ --> May imply overfitting if too high!
+   * `F1` = $\frac{2*Recall*Precision}{Recall + Precision}$
+   * `ROC`: Receiver Operator Curve: Helps with identifying max-specificity and max-sensitivity cut-off points (models).
+   * `AUC`: Area Under the Curve: Characterises the overal performance of a model! The larger it is the better!
 * Entropy/Gini: Information gain
 * Variance: root of squared distances of all points from the mean.
   * Used in evaluating cluster representations
