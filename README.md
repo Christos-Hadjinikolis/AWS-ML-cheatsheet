@@ -1,6 +1,6 @@
 # My Cheat-sheet
 
-# AWS Infra:
+# AWS Infra
 
 ## AWS Services
 
