@@ -100,3 +100,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# AWS
+aws.xml
+workspace.xml
+
