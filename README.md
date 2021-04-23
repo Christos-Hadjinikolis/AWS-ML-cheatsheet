@@ -14,7 +14,6 @@
 * `Forecast` --> Managed Service for time Series forecasting
 * `Personalise` --> Creates high-quality recommendations for your websites and applications
 
-
 ## SageMaker
 * `SageMaker` --> A fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly.
 * `Hyperparameter Tuning`:
